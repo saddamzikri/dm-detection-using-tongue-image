@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.view.Window
 import android.view.WindowManager
 
-class splash_screen : AppCompatActivity()
+class SplashScreen : AppCompatActivity()
 {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +15,7 @@ class splash_screen : AppCompatActivity()
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.splash_screen)
         Handler().postDelayed({
-            startActivity(Intent(this@splash_screen, MainActivity::class.java))
+            startActivity(Intent(this@SplashScreen, MainActivity::class.java))
             finish()
         },4000)
     }

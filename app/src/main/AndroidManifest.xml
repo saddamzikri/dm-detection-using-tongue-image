@@ -16,7 +16,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="com.saddam.dmdetecttongue.splash_screen" android:exported="true">
+        <activity android:name="com.saddam.dmdetecttongue.SplashScreen" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -26,6 +26,8 @@
         <activity android:name="com.saddam.dmdetecttongue.scan" android:exported="false"/>
         <activity android:name="com.saddam.dmdetecttongue.MainActivity" android:exported="false"/>
         <activity android:name="com.saddam.dmdetecttongue.result" android:exported="false"/>
+        <activity android:name="com.saddam.dmdetecttongue.About" android:exported="false" />
+        <activity android:name="com.saddam.dmdetecttongue.Tutorial" android:exported="false" />
     </application>
 
 </manifest>

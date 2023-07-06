@@ -8,4 +8,27 @@
     <string name="dm_detection">Pendeteksi DM melalui Lidah</string>
     <string name="diseases">Klik Gambar Kamera Untuk Mulai Mendeteksi</string>
     <string name="button">Button</string>
+
+    <string name="kembali" translatable="false">Kembali</string>
+    <string name="tutorial" translatable="false">CARA PENGGUNAAN APLIKASI</string>
+    <string name="tutorial_1" translatable="false">1. Tekan gambar MULAI DETEKSI yang berada pada bagian tengah halaman awal dari aplikasi.</string>
+    <string name="tutorial_2" translatable="false">2. Ambil gambar yang akan diidentifikasi dengan memilih tombol GALERI untuk mengambil gambar dari galeri, atau tombol KAMERA untuk mengambil gambar secara langsung dengan kamera handphone.</string>
+    <string name="tutorial_3" translatable="false">3. Setelah memilih gambar, tekan tombol DETEKSI pada bagian bawah halaman untuk melihat hasil identifikasi.</string>
+    <string name="tutorial_4" translatable="false">4. Hasil identifikasi berupa indikasi Diabetes atau tidak dan saran penanganan akan ditampilkan pada halaman hasil identifikasi lidah.</string>
+    <string name="tutorial_5" translatable="false">5. Tekan ikon panah kembali pada bagian kiri atas untuk kembali ke halaman sebelumnya.</string>
+    <string name="tutorial_6" translatable="false">6. Pada halaman awal aplikasi, tekan tombol TENTANG APLIKASI untuk mendapatkan informasi mengenai aplikasi.</string>
+    <string name="tutorial_7" translatable="false">7. Halaman TUTORIAL berisi penjelasan cara penggunaan aplikasi.</string>
+
+
+
+    <string name="judul_keterangan" translatable="false">PENYAKIT-PENYAKIT DAUN PISANG</string>
+    <string name="yellow_sigatoka" translatable="false">1. Penyakit Yellow Sigatoka</string>
+    <string name="black_sigatoka" translatable="false">2. Penyakit Black Sigatoka</string>
+    <string name="cordana" translatable="false">3. Penyakit Cordana</string>
+    <string name="keterangan_ys" translatable="false">Yelllow Sigatoka adalah penyakit jamur yang disebabkan oleh <i>Pseudocercospora musae</i>>, di mana saat pertama kali diidentifikasi, jamur ini dikenal menggunakan nama morfologi seksual, yaitu <i>Mycosphaerella musicola</i>. Penyakit ini akan mengurangi kapasitas fotosintesis pada daun, yang dapat mempengaruhi ukuran tandan, serta akan mempersingkat kehidupan hijau buah, waktu antara panen dan pematangan.</string>
+    <string name="keterangan_bs" translatable="false">Black Sigatoka adalah penyakit bercak daun tanaman pisang yang disebabkan oleh <i>Mycosphaerella fijiensis</i> (Morelet). Penyakit ini menyerang daun tanaman pisang, merusak dedaunan dengan sangat cepat jika tindakan pengendalian tidak dilakukan. Serangan penyakit ini dapat menyebabkan penurunan hasil 30-50%, serta dapat menurunkan kualitas buah pisang.</string>
+    <string name="keterangan_c" translatable="false">Cordana adalah penyakit yang disebabkan oleh jamur <i>Cordana musae</i> (Zimm). Penyakit ini termasuk ke dalam penyakit yang umum dan tersebar luas pada tanaman pisang. Sebagian besar kerusakan terjadi ketika patogen masuk ke jaringan daun yang melemah karena usia, kondisi lingkungan yang merugikan, kekurangan nutrisi, luka atau melalui lesi yang disebabkan oleh patogen lain. </string>
+    <string name="hasil_deteksi" translatable="false">HASIL IDENTIFIKASI PENYAKIT</string>
+    <string name="jenis_penyakit" translatable="false">Jenis Penyakit</string>
+    <string name="cara" translatable="false">Cara Pengendalian :</string>
 </resources>
