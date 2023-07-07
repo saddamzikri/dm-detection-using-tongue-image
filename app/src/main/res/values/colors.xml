@@ -11,4 +11,5 @@
     <color name="colorPrimary">#2392B6</color>
     <color name="colorPrimaryDark">#043747</color>
     <color name="colorAccent">#9B3819</color>
+    <color name="merah">#FF0000</color>
 </resources>

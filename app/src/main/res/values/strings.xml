@@ -11,21 +11,49 @@
 
     <string name="kembali" translatable="false">Kembali</string>
     <string name="tutorial" translatable="false">CARA PENGGUNAAN APLIKASI</string>
-    <string name="tutorial_1" translatable="false">1. Tekan gambar MULAI DETEKSI yang berada pada bagian tengah halaman awal dari aplikasi.</string>
-    <string name="tutorial_2" translatable="false">2. Ambil gambar yang akan diidentifikasi dengan memilih tombol GALERI untuk mengambil gambar dari galeri, atau tombol KAMERA untuk mengambil gambar secara langsung dengan kamera handphone.</string>
-    <string name="tutorial_3" translatable="false">3. Setelah memilih gambar, tekan tombol DETEKSI pada bagian bawah halaman untuk melihat hasil identifikasi.</string>
+    <string name="tutorial_1" translatable="false">1. Klik tombol Kamera untuk memulai deteksi pada aplikasi.</string>
+    <string name="tutorial_2" translatable="false">2. Pilih gambar lidah yang akan diidentifikasi dengan memilih tombol KAMERA untuk mengambil gambar lidah dengan kamera handphone. Atau pilih tombol GALERI untuk memilih gambar dari galeri handphone.</string>
+    <string name="tutorial_3" translatable="false">3. Kemudian klik tombol DETEKSI untuk melihat hasil identifikasi.</string>
     <string name="tutorial_4" translatable="false">4. Hasil identifikasi berupa indikasi Diabetes atau tidak dan saran penanganan akan ditampilkan pada halaman hasil identifikasi lidah.</string>
     <string name="tutorial_5" translatable="false">5. Tekan ikon panah kembali pada bagian kiri atas untuk kembali ke halaman sebelumnya.</string>
     <string name="tutorial_6" translatable="false">6. Pada halaman awal aplikasi, tekan tombol TENTANG APLIKASI untuk mendapatkan informasi mengenai aplikasi.</string>
     <string name="tutorial_7" translatable="false">7. Halaman TUTORIAL berisi penjelasan cara penggunaan aplikasi.</string>
 
+    <string name="hasil" translatable="false">HASIL IDENTIFIKASI</string>
 
+    #tentang aplikasi
+    <string name="tentang_1" translatable="false">Selamat datang di Aplikasi Pengidentifikasi Penyakit Diabetes Melitus melalui Citra Lidah!</string>
+    <string name="tentang_2" translatable="false">Aplikasi ini dirancang untuk membantu dalam mengidentifikasi penyakit Diabetes Melitus melalui analisis citra lidah menggunakan model EfficientNet-B3. Aplikasi ini memberikan solusi cepat dan akurat dalam deteksi dini penyakit yang penting ini.</string>
+    <string name="tentang_3" translatable="false">Identifikasi Diabetes Melitus: Aplikasi ini menggunakan model EfficientNet-B3 yang telah terlatih dengan ribuan citra lidah untuk mengklasifikasikan apakah seseorang memiliki potensi diabetes melalui citra lidah mereka.
+
+1.Identifikasi Diabetes Melitus: Aplikasi ini menggunakan model EfficientNet-B3 yang telah terlatih dengan ribuan citra lidah untuk mengklasifikasikan apakah seseorang memiliki potensi diabetes melalui citra lidah mereka.
+
+2. Penggunaan Citra Lidah: Anda dapat dengan mudah mengambil foto lidah menggunakan kamera ponsel Anda. Aplikasi akan menganalisis citra tersebut dan memberikan hasil deteksi secara real-time.<br></br>
+
+3. Aplikasi ini menggunakan model EfficientNet-B3 yang teroptimasi, dengan tujuan untuk menguji akurasi dan kinerja dari model EfficientNet-B3, aplikasi ini memberikan hasil identifikasi berdasarkan data yang telah ditraining sebelumnya.<br></br>
+
+4. Privasi dan Keamanan Data: Kami menghargai privasi pengguna kami. Aplikasi ini tidak menyimpan atau mengunggah data citra lidah ke server eksternal. Semua data diproses secara lokal di perangkat Anda.<br></br></string>
+
+    <string name="tentang_note" translatable="false"><br></br>
+Catatan: Aplikasi ini bukan pengganti dari diagnosis medis profesional. Selalu konsultasikan dengan dokter atau tenaga medis yang berkualifikasi untuk evaluasi dan diagnosis medis yang tepat.</string>
+    <string name="lidah_nd" translatable="false">Contoh Lidah yang sehat</string>
+    <string name="lidah_d" translatable="false">Contoh Lidah yang Terindikasi Diabetes</string>
+    <string name="keterangan_lidah" translatable="false">Berdasarkan jurnal "The Tongue Features Associated with Type 2 Diabetes Mellitus" oleh Po Ci Hsu mengenai perbedaan karakteristik lidah antara individu yang sehat dan individu yang terindikasi menderita diabetes tipe 2. Berikut adalah penjelasan dan keterangan singkat mengenai perbedaan tersebut:
+
+1. Warna Lidah: Pada individu yang sehat, lidah umumnya memiliki warna merah muda atau merah cerah. Namun, pada individu yang terindikasi diabetes tipe 2, lidah cenderung memiliki warna yang lebih pucat atau kebiruan.
+
+2. Kekeringan Lidah: Lidah individu yang sehat umumnya memiliki kelembapan yang normal. Namun, pada individu yang terindikasi diabetes tipe 2, lidah dapat terasa lebih kering dan kurangnya kelembapan.
+
+3. Permukaan Lidah: Lidah individu yang sehat umumnya memiliki permukaan yang halus. Namun, pada individu yang terindikasi diabetes tipe 2, lidah dapat terlihat lebih kasar dengan adanya penebalan atau perubahan tekstur.
+
+4. Pembengkakan Lidah: Pada individu yang sehat, lidah memiliki ukuran dan bentuk yang normal. Namun, pada individu yang terindikasi diabetes tipe 2, lidah dapat mengalami pembengkakan atau membesar.
+
+5. Gejala Lidah Lainnya: Individu yang terindikasi diabetes tipe 2 juga dapat mengalami gejala lidah lainnya, seperti adanya lesi atau luka yang sulit sembuh pada lidah, perubahan rasa pada lidah, atau peningkatan sensasi panas atau terbakar.</string>
 
     <string name="judul_keterangan" translatable="false">PENYAKIT-PENYAKIT DAUN PISANG</string>
     <string name="yellow_sigatoka" translatable="false">1. Penyakit Yellow Sigatoka</string>
-    <string name="black_sigatoka" translatable="false">2. Penyakit Black Sigatoka</string>
+
     <string name="cordana" translatable="false">3. Penyakit Cordana</string>
-    <string name="keterangan_ys" translatable="false">Yelllow Sigatoka adalah penyakit jamur yang disebabkan oleh <i>Pseudocercospora musae</i>>, di mana saat pertama kali diidentifikasi, jamur ini dikenal menggunakan nama morfologi seksual, yaitu <i>Mycosphaerella musicola</i>. Penyakit ini akan mengurangi kapasitas fotosintesis pada daun, yang dapat mempengaruhi ukuran tandan, serta akan mempersingkat kehidupan hijau buah, waktu antara panen dan pematangan.</string>
     <string name="keterangan_bs" translatable="false">Black Sigatoka adalah penyakit bercak daun tanaman pisang yang disebabkan oleh <i>Mycosphaerella fijiensis</i> (Morelet). Penyakit ini menyerang daun tanaman pisang, merusak dedaunan dengan sangat cepat jika tindakan pengendalian tidak dilakukan. Serangan penyakit ini dapat menyebabkan penurunan hasil 30-50%, serta dapat menurunkan kualitas buah pisang.</string>
     <string name="keterangan_c" translatable="false">Cordana adalah penyakit yang disebabkan oleh jamur <i>Cordana musae</i> (Zimm). Penyakit ini termasuk ke dalam penyakit yang umum dan tersebar luas pada tanaman pisang. Sebagian besar kerusakan terjadi ketika patogen masuk ke jaringan daun yang melemah karena usia, kondisi lingkungan yang merugikan, kekurangan nutrisi, luka atau melalui lesi yang disebabkan oleh patogen lain. </string>
     <string name="hasil_deteksi" translatable="false">HASIL IDENTIFIKASI PENYAKIT</string>

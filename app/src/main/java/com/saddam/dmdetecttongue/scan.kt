@@ -35,7 +35,7 @@ class scan:AppCompatActivity()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.scan)
+        setContentView(R.layout.activity_scan)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
         mClassifier = Classifier(assets, mModelPath, mLabelPath, mInputSize)
 

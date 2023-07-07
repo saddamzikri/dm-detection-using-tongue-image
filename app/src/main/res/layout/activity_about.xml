@@ -54,31 +54,42 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="20sp"
+                android:text="@string/tentang_1"
+                android:textSize="18sp"
                 android:textStyle="bold"
+                android:textAlignment="center"
                 android:textColor="#FF008080" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="140dp"
-                android:src="@drawable/cordana"
-                android:layout_marginVertical="10dp"
-                android:contentDescription="@string/yellow_sigatoka"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:justificationMode="inter_word"
-                android:text="@string/keterangan_ys"
+                android:text="@string/tentang_2"
                 android:textColor="#5F5A59"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/tentang_3"
+                android:textColor="#5F5A59"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/tentang_note"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
                 android:textSize="16sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:text="@string/black_sigatoka"
+                android:text="@string/lidah_nd"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#FF008080" />
@@ -86,14 +97,30 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="140dp"
-                android:src="@drawable/cordana"
+                android:src="@drawable/nd_1"
                 android:layout_marginVertical="10dp"
-                android:contentDescription="@string/black_sigatoka"/>
+                android:contentDescription="@string/lidah_nd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/lidah_d"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FF008080" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:src="@drawable/d_1"
+                android:layout_marginVertical="10dp"
+                android:contentDescription="@string/lidah_d"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/keterangan_bs"
+                android:text="@string/keterangan_lidah"
                 android:justificationMode="inter_word"
                 android:textSize="16sp"
                 android:textColor="#5F5A59" />

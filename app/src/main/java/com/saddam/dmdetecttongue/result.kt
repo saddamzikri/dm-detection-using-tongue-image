@@ -1,6 +1,7 @@
 package com.saddam.dmdetecttongue
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -9,7 +10,7 @@ class result : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.result)
+        setContentView(R.layout.activity_result)
 
         var intent = intent
         val name = intent.getStringExtra("answer")
@@ -39,6 +40,7 @@ class result : AppCompatActivity() {
                 des.setBackgroundResource(R.drawable.bgwhite)
             }else {
                 head.text = "Anda terindikasi menderita Diabetes"
+                head.setTextColor(resources.getColor(R.color.colorAccent))
                 des.text = "Rekomendasi penanganan awal untuk diabetes\na. Silahkan menuju ke Rumah Sakit untuk pemeriksaan lebih lanjut.\n" +
                         "b. Fokuslah pada gaya hidup sehat dan pola makan seimbang.\n" +
                         "c. Kurangi konsumsi gula berlebih dan karbohidrat sederhana, tingkatkan asupan serat dan makanan bergizi.\n" +
@@ -47,6 +49,11 @@ class result : AppCompatActivity() {
                 des.setBackgroundResource(R.drawable.bgwhite)
             }
         }
-
+        val btnBack3 : ImageView =findViewById(R.id.btn_back3)
+        btnBack3.setOnClickListener()
+        {
+            val intent = Intent(this, scan::class.java)
+            startActivity(intent)
+        }
     }
 }

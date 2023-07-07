@@ -2,6 +2,6 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/listview_background_shape">
 
-    <solid android:color="#FF008080" />
+    <solid android:color="@color/colorPrimaryDark" />
 
 </shape>
